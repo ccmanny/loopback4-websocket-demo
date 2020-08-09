@@ -2,6 +2,11 @@
 
 这是一个websocket 服务器。
 
+## 安装
+    $ git clone https://github.com/ccmanny/loopback4-websocket-demo.git  <br/>
+    $ cd loopback4-websocket-demo <br/>
+    $ npm i <br/>
+    $ npm start <br/>
 
 ## 主要逻辑
 前端通过websocket，与服务端（websocketServer）建立连接的时候，websocketServer通过socket.handshake.query来标记socket的状态；<br/>
